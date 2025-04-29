@@ -1,0 +1,156 @@
+body {
+  background-color: #f5f8fa;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #1a1a1a;
+  margin-bottom: 20px;
+}
+
+.nav-links {
+  margin-bottom: 20px;
+  display: flex;
+  gap: 15px;
+}
+
+.nav-links a {
+  color: #1da1f2;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 8px 12px;
+  border-radius: 20px;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.nav-links a:hover {
+  color: #fff;
+  background-color: #0a71b8;
+}
+
+.section-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #333;
+  margin: 20px 0 10px;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccd6dd;
+  border-radius: 5px;
+  font-size: 14px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #1da1f2;
+  box-shadow: 0 0 5px rgba(29, 161, 242, 0.3);
+}
+
+.select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccd6dd;
+  border-radius: 5px;
+  font-size: 14px;
+  margin-bottom: 10px;
+  background-color: #fff;
+}
+
+.button {
+  background-color: #1da1f2;
+  color: #fff;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 20px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.button:hover {
+  background-color: #0a71b8;
+}
+
+.button-green {
+  background-color: #28a745;
+}
+
+.button-green:hover {
+  background-color: #218838;
+}
+
+.button-gray {
+  background-color: #6c757d;
+}
+
+.button-gray:hover {
+  background-color: #5a6268;
+}
+
+.action-link {
+  color: #1da1f2;
+  font-size: 14px;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.action-link:hover {
+  color: #0a71b8;
+  text-decoration: underline;
+}
+
+.action-link-yellow {
+  color: #ffc107;
+}
+
+.action-link-yellow:hover {
+  color: #e0a800;
+}
+
+.action-link-red {
+  color: #dc3545;
+}
+
+.action-link-red:hover {
+  color: #c82333;
+}
+
+.post-content {
+  color: #333;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.meta {
+  color: #657786;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+.comments {
+  border-top: 1px solid #e1e8ed;
+  padding-top: 10px;
+}
