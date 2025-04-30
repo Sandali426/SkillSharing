@@ -19,7 +19,7 @@ public class LearningPlan {
     @Id
     private String id;
 
-    private String userId; // Hardcoded for now
+    private String userId;
 
     private String title;
     private List<Topic> topics;
