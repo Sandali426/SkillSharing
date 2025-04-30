@@ -31,11 +31,14 @@ public class LearningPlanRequestDTO {
 
 
     @NotNull
-    private PlanStatus status;
+    private PlanStatus 
+    status;
 
     @NotNull
-    private LocalDate startDate;
+    private LocalDate 
+    startDate;
 
     @NotNull
-    private LocalDate endDate;
+    private LocalDate 
+    endDate;
 }
